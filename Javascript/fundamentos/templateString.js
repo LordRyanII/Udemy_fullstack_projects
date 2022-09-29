@@ -12,3 +12,10 @@ console.log(Name.charAt(5))
 
 console.log(Name.replace(1, 'e').toString())
 console.log(`Nome completo: ${Name} ` + sobrenome)
+
+//Chamando funções:
+
+const up = Texto => Texto.toUpperCase() //Transforma strings em maiúsculas
+
+console.log(`Ei... ${up('cuidado!')} ataque de elfos á frente!!`) //A saída será a palavra cuidado, em CUIDADO. 
+
