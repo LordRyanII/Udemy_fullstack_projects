@@ -1,5 +1,4 @@
-//Aprendendo 
-Destructuring
+//Aprendendo Destructuring
 const Pessoa = {
     Nome: 'Renata',
     Idade: 19 + 'anos',
