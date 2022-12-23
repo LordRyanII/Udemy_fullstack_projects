@@ -12,7 +12,7 @@ function pessoa() {
     // Cancela a chamada do setInterval() após 10 segundos
     let pare_a_contagem = setTimeout(() => {
       console.log('Parando a contagem...');
-      clearInterval(testando_arrows);
+      clearInterval(testando_arrows);// função global do Node.js que é usada para cancelar uma chamada de função agendada pelo método setInterval().
     }, 10000);
   }
 new pessoa //Ainda não sei muito sobre isso, mas segui o professor
