@@ -1,0 +1,13 @@
+//let Arrow = () =>
+
+function pessoa(){
+    this.idade = 0
+
+    setInterval(() =>{
+        this.idade++ //this se refere a 'pessoa', no caso a function.
+        //exemplo literal : ''A idade dessa pessoa é 0, acrescente mais a cada intervalo de um minuto"
+        console.log(` A idade atual é ${this.idade}`) //exibe no console a idade
+    },1000)
+}
+
+new pessoa
