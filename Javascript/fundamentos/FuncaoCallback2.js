@@ -11,7 +11,7 @@ for(let i in notas){
 
 console.log(notasBaixas)
 
-//com callback
+//com callback:
 
 const notasAltas= notas.filter(function (notas){
     return notas > 7
@@ -19,7 +19,7 @@ const notasAltas= notas.filter(function (notas){
 
 console.log(notasAltas)
 
-//Com callback e arrow
+//Com callback e arrow:
 
 const notasBaixas2 = notas.filter(notas => {
     return notas < 7
