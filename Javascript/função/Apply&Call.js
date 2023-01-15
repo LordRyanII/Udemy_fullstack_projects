@@ -26,4 +26,5 @@ console.log(getPreco.call(carro));//com call
 console.log(getPreco.apply(carro))//com aply
 
 console.log(getPreco.call(carro, 0.17, 'U$')) //passando em dolar,
-//Apenas com o call, é possível alterar os paramêtros de uma função
+console.log(getPreco.apply(carro, [0.2, '£$']))//passando em Euro
+// é possível alterar os paramêtros de uma função
