@@ -12,13 +12,13 @@ function Produtos() {
 function consultaValor(codigo) {
     let valores = Produtos();
 
-    valores.forEach((element, index) => {
+    valores.forEach((element) => {
         if(element.codigo === codigo) {
             return console.log(`Produto encontrado é ${element.descricao}, o seu preço é R$${element.preco}`)
         }
     });
    
-}
+}   
 
 console.log(consultaValor(100));
 console.log(consultaValor(200));
