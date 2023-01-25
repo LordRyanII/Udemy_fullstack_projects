@@ -29,11 +29,11 @@ function Anuidade (mes, valor){
 
     } else if( mes === 6){
 
-        return `Em Junho teria no valor um acrescimo de 30% ficaria R$${montante = parseFloat(valor * (1+ 30/100)**6).toFixed(2)}`
+        return `Em Junho teria no valor um acrescimo de 30% ficaria R$${montante = parseFloat(valor * (1+ 30/100)**6).toFixed(2).replace('.', ',')}`
 
     } else if( mes === 7){
 
-        return `Em Julho teria no valor um acrescimo de 35% ficaria R$${montante = parseFloat(valor * (1+ 35/100)**7).toFixed(2)}`
+        return `Em Julho teria no valor um acrescimo de 35% ficaria R$${montante = parseFloat(valor * (1+ 35/100)**7).toFixed(2).replace('.', ',')}`
 
     } else if (mes === 8){
 
@@ -54,7 +54,7 @@ function Anuidade (mes, valor){
     } else {
 
         return `Em Dezembro teria no valor um acrescimo de 60% ficaria R$${montante = parseFloat(valor * (1+ 60/100)**12).toFixed(2).replace('.', ',')}`
-        
+
     }
 }
 
