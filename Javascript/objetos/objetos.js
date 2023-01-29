@@ -30,4 +30,4 @@ console.log(carro) //Saída
 
 delete carro.condutores //Deleta o objeto do caminho, no caso 'Condutores'
 
-console.log(carro) //Saída
+console.log(carro) //Saída  
