@@ -6,7 +6,7 @@
 */
 
 class Lancamento {
-    constructor(nome = 'Generico', valor = 0){ //É necessário usar o constructor() como paramêtros de função
+    constructor(nome = 'Generico', valor = 0){ //É necessário usar o constructor() como paramêtros de função; 
         this.nome = nome
         this.valor = valor
     }
