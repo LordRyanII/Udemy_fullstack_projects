@@ -1,6 +1,6 @@
 // Introdução Ao Node.js
 
-this.ola = 'Olá' //this em node é um objeto, que agora possuí o valor 'Olá'
+this.ola = 'Falaaaa Gurizada' //this em node é um objeto, que agora possuí o valor 'Olá'
 exports.bemvindo = 'Bem-vindo ao Node.js' //exports é um objeto
 
 //Formas de exportação:

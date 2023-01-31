@@ -1,6 +1,6 @@
 // Forma mais comum de fazer a exportação:
 
-module.export = {
+module.exports = {
     bomDia: 'Bom dia',
     boaNoite () {
         return 'Boa noite!'
