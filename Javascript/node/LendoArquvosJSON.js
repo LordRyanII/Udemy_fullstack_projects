@@ -1,16 +1,16 @@
-const fileSystem = require('fs');
+const fs = require('fs');
 
 const caminho = __dirname + '/arquivo.json'
 
 // Sincrono...
 
-const conteudo = fileSystem.readFileSync(caminho, 'utf-8');
+const conteudo = fs.readFileSync(caminho, 'utf-8');
 
 console.log(conteudo)
 
 // Assincrono...
 
-fileSystem.readFile(caminho, 'utf-8', (error, conteudo) =>{
+fs.readFile(caminho, 'utf-8', (error, conteudo) =>{
     const config =  JSON.parse(conteudo)
 
     console.log(`${config.db.host}: ${config.db.port}`)
