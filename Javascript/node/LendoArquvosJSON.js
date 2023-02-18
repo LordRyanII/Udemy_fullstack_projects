@@ -29,3 +29,8 @@ console.log(config.db)
     3- Ele é uma constante global
     4- __dirname + './ nome do arquivo' você consegue acessar o arquivo
 */
+
+
+fs.readdir(__dirname, (error, arquivos) => {
+    console.log(arquivos)
+}) //Mostra o conteúdo da página
