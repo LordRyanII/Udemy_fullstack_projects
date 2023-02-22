@@ -23,7 +23,10 @@ app.get('/produtos/:id', (req, res, next) => {
 })
 
 app.post('/produtos', (req, res, next) => {
-    
+    const produto = bancoDeDados.salvarProduto({
+        nome: req.body.name,
+        preco: req.body.preco
+    })
 })
 
 /* Aqui ficará o servidor:*/

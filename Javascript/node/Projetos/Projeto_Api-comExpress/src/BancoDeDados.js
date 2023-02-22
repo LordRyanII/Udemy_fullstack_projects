@@ -7,9 +7,10 @@ const sequence = {
     }
 } // Esse get é uma função Getter, que retorna o valor do id que é um, e vai para sequência
 
-const produto = {}
 
 // Lógica:
+
+const produto = {}
 
 function salvarProduto(produto){
     if(!produto.id){
