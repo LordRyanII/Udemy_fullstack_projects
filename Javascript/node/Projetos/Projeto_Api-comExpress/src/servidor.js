@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({extended: true }))
     next() 
 })*/
 
-
 app.get('/produtos', (req, res, next) => { 
     res.send(bancoDeDados.getProdutos()) //Converte para JSON
 })
