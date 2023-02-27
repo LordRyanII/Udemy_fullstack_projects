@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td {
+            padding: 10px;
+        }
+        header{
+            text-align: center;
+            
+        }
+        header, tr{
+            border: solid 3px gray;
+            padding-bottom: 5px;
+        }
+        tbody tr:hover {
+            background-color: gray;
+            cursor: pointer;
+        }
+        tfoot:hover{
+            background-color: rgb(59, 58, 58);
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <header>
+            Produtos
+        </header>
+            <tr>
+                <th>
+                    Produto
+                </th>
+                
+                <th>
+                    Preço
+                </th>
+                <th>
+                    Quantidade
+                </th>
+                <th>
+                    Total
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    ipad
+                </td>
+                <td>
+                    R$3000,50
+                </td>
+                <td>
+                    5
+                </td>
+                <td>
+                    R$ 16.000,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Samsung S9
+                </td>
+                <td>
+                    R$ 2.500,00
+                </td>
+                <td>
+                    2
+                </td>
+                <td>
+                    R$ 5.000,00
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">
+                Total
+            </td>
+            <td>
+                R$ 21.500,00
+            </td>
+        </tfoot>
+    </table>
+</body>
+</html>
