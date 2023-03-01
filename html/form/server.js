@@ -1,18 +1,17 @@
-const port = 3003
+const port = 3006
 const express = require('express');
 const app = express()
 
 const bodyParser = require('body-parser'); //Para fazer parser no corpo da requisição
-const { response } = require('express');
-
 // Rotas: 
 
-app.use(express.urlencoded({extended: true})) //Padrão
+app.use(bodyParser.urlencoded({extended: true})) //Padrão
 
-app.post('/usuarios', (req, res, next)=> {
+app.post('/usuarios', (req, resp, next)=> {
     console.log(req.body)
-    response.send('<h1> PARABÉNS </h1>')
+    resp.send('<h1> PARABÉNS </h1>')
 })
+
 
 
 app.listen(port)
