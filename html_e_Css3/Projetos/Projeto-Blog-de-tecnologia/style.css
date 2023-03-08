@@ -71,5 +71,23 @@ span.date > p{
 
 .area-lateral{
     float: right;
-    width: 240px;
+    width: 250px;
+    padding-left: 150px;
+    margin: 10px 0px 10px;
+}
+
+.conteudo-lateral > h2{
+    background-color: gray;
+    border-radius: 10px;
+
+}
+.conteudo1, .conteudo2{
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 10px;
+    cursor: pointer;
+    margin-top: 10px;
 }
