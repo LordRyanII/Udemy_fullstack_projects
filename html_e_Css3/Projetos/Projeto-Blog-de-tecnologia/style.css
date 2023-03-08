@@ -7,8 +7,9 @@ header{
     width: 100vw;
 }
 header > h1{
-    font: 55px 'Arial, Helvetica, sans-serif';
+    font-family: 'Trebuche MS", Helvetica, sans-serif';
     text-align: center;
+    font-size: 2.5em;
     padding: 20px;
 }
 nav{
@@ -18,13 +19,20 @@ nav{
     width: 100vw;
 }
 nav > ul, li{
-    padding-right: 30px;
+    padding-right: 60px;
     text-align: center;
     color: white;
     display: flex;
     margin: auto;
-    font: 15px;
+    font-size: 20px;
     
+}
+li:hover{
+    background-color: white;
+    border-radius: 10px;
+    width: 55px;
+    cursor: pointer;
+    color: #f7b600;
 }
 article{
     margin-top: 20px;
@@ -32,19 +40,34 @@ article{
     
 }
 .noticia{
-    background-color: rgba(238, 235, 235, 0.808);
-    width: 57%;
+    background-color: #e6e6e6;
+    width: 90%;
     height: 100%;
     margin: auto;
     
 }
-.noticia > h1{
-    text-align: left;
-    padding: 10px 0px 0px 10px;
-    
+
+.conteudoPrincipal{
+    width: 60%;
 }
-.noticia > .date{
-    padding: 1px 0px 0px 15px;
-    font: 5px;
+
+.conteudoPrincipal > h2, .date{
     text-align: left;
+    padding: 10px 0px 0px 30px;
+}
+
+span.date > p{
+    font-size: 10px;
+    padding: 1px;
+    text-align: left;
+}
+
+.conteudo{
+text-indent: 10px;
+text-align: justify;
+    padding: 10px;
+}
+
+.area-lateral{
+    float: right;
 }
