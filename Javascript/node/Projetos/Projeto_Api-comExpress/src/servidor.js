@@ -1,5 +1,5 @@
 //Requisições:
-const porta = 3010
+const porta = 3001
 const express = require('express');
 const app = express()
 const bancoDeDados = require('./BancoDeDados')
