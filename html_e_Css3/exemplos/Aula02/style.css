@@ -1,0 +1,30 @@
+/*
+    Configurando o estilo da Barra lateral
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+ul a{
+    background-image: url(recursos/arquivos-necessarios-barra-navegacao-vertical/menu.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border: 1px solid red;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 40px;
+    display: block;
+    width: 200px;
+    height: 40px;
+}
+/*Aplica o efeito:*/
+
+a:hover{
+    background-position: right;
+}
