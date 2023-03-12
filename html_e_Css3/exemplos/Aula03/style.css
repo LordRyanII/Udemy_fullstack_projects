@@ -30,3 +30,22 @@ textarea{
     margin: auto;
     width: 1em;
 }
+
+.submit{
+    width: 120px;
+    margin: auto;
+}
+
+input > .btn{
+    border-radius: 20px;
+    text-align: center;
+    margin: auto 20px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
