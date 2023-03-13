@@ -74,3 +74,101 @@ a:hover{
     background-color: #de003e;
     cursor: text;
 }
+
+/*
+    Configura Layout de três colunas:
+*/
+#tres-colunas #primario{
+    width: 270px;
+    display: flex;
+}
+#duas-colunas #primario{
+    width: 555px;
+    display: flex;
+}
+
+#conteudo{
+    margin-top: 60px;
+    height: 100%;
+    display: flex;
+}
+.primario, .secundario{
+    width: 270px;
+    
+}
+.lateral{
+    width: 180px;
+    margin-right: 15px;
+    
+}
+
+.secundario{
+    margin-left: 15px;
+    background-color: blue;
+}
+
+
+/*Configura o conteúdo*/
+
+.caixas{
+    margin: 10px 0;
+    
+    background-image: url(../imagens/fundo-caixa.png);
+    font-size: 15px;
+}
+.caixas > h2{
+    font-size: 1.1em;
+    padding: 5px;
+    background: #294c71;
+    color: #fff;
+}
+.caixa-conteudo{
+    margin: 5px auto;
+    background-color: #fff;
+    width: 80%;
+    padding: 10px;
+}
+.lista > li{
+    margin: auto;
+    color: black;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.caixa-conteudo-end{
+    margin: 10px auto; 
+    width: 90%;
+    background-color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo-end > h2{
+    font-size: 15px;
+    background: red;
+    color: #000000d0;
+}
+
+.caixa-conteudo-end > p {
+    margin-top: 15px;
+    text-align: justify;
+    text-indent: 5px;
+}
+
+/*
+    Rodapé (footer)
+*/
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(17, 17, 182);
+}
+
+footer > p{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
