@@ -104,7 +104,6 @@ a:hover{
 
 .secundario{
     margin-left: 15px;
-    background-color: blue;
 }
 
 
@@ -112,30 +111,40 @@ a:hover{
 
 .caixas{
     margin: 10px 0;
-    
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url(../imagens/fundo-caixa.png);
     font-size: 15px;
 }
-.caixas > h2{
+.caixas > h2, .extras > h2{
     font-size: 1.1em;
     padding: 5px;
     background: #294c71;
     color: #fff;
 }
-.caixa-conteudo{
+
+.caixa-conteudo, .extras> p{
     margin: 5px auto;
     background-color: #fff;
     width: 80%;
     padding: 10px;
 }
+
+.extras > p{
+    text-align: center;
+}
+input{
+    width: 100%;
+}
 .lista > li{
     margin: auto;
+    margin-bottom: 20px;
     color: black;
-    margin-bottom: 10px;
 }
 a{
-    text-decoration: none;
     color: black;
+}
+a:hover{
+    text-decoration: underline;
 }
 .caixa-conteudo-end{
     margin: 10px auto; 
@@ -146,14 +155,19 @@ a{
 .caixa-conteudo-end > h2{
     font-size: 15px;
     background: red;
-    color: #000000d0;
+    color: #fff;
 }
 
 .caixa-conteudo-end > p {
     margin-top: 15px;
     text-align: justify;
-    text-indent: 5px;
+    text-indent: 10px;
 }
+
+.noticia1, .noticia2{
+    display: flex;
+}
+
 
 /*
     Rodapé (footer)
@@ -166,7 +180,7 @@ footer{
 }
 
 footer > p{
-    margin-top: 10px;
+    margin-top: 60px;
     text-align: center;
     color: white;
     padding: 20px;
