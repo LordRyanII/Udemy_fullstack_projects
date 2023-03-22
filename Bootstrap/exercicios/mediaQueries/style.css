@@ -1,12 +1,9 @@
 /* Small device (celulares)*/
 
-@media (min-width: 576px) {
+
+
+@media (max-width: 1300px) {
     body{
-        background-color: red;
-    }
-}
-@media (min-width: 768px) {
-    body{
-        background-color: red;
+        background-color: yellow;
     }
 }
