@@ -2,7 +2,7 @@
  Study of several programming languages, until training as a full Stack professional.
  <br>
  <br>
- #Future skills #
+<strong> #Future skills # </strong>
  <br>
  -html
  <br>
@@ -10,5 +10,9 @@
  <br>
  -Bootstrap
  <br>
- -Javascript
+ -Javascript (react, vue, angular...)
+ <br>
+ -Node.js
+ <br>
+ -Php (laravel...)
  <br>
