@@ -2,7 +2,8 @@
  Study of several programming languages, until training as a full Stack professional.
  <br>
  <br>
-<strong> #Future skills # </strong>
+<strong> #Future skills # </strong> 
+<br>
  <br>
  -html
  <br>
