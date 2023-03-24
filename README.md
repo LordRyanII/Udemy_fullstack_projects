@@ -5,11 +5,11 @@
 <strong> #Future skills # </strong> 
 <br>
  <br>
- -html
+ -html5
  <br>
  -Css3
  <br>
- -Bootstrap
+ -Bootstrap5
  <br>
  -Javascript (react, vue, angular...)
  <br>
