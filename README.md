@@ -2,18 +2,28 @@
  Study of several programming languages, until training as a full Stack professional.
  <br>
  <br>
-<strong> #Future skills # </strong> 
+<strong> # skills # </strong> 
 <br>
  <br>
- -html5
+ -html5;
  <br>
- -Css3
+ -Css3;
  <br>
- -Bootstrap5
+ -Bootstrap5;
  <br>
- -Javascript (react, vue, angular...)
+ -Javascript;
  <br>
- -Node.js
+ -Node.js;
+ <br>
+ <strong> #Future skills # </strong> 
+<br>
+ -React;
+ <br>
+ -Vue;
+ <br>
+ -Angular;
+ <br>
+ -TipeScript
  <br>
  -Php (laravel...)
  <br>
