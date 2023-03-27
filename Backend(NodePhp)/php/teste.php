@@ -1,1 +1,3 @@
-echo "Testando, apenas para testar mesmo ",
+<?php
+echo "Hello World";
+?>
