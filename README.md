@@ -17,6 +17,7 @@
 
  <strong> #Future skills # </strong> 
 <br>
+
  -React;
  <br>
  -Vue;
