@@ -14,7 +14,7 @@
  -Javascript;
  <br>
  -Node.js;
- <br>
+
  <strong> #Future skills # </strong> 
 <br>
  -React;
