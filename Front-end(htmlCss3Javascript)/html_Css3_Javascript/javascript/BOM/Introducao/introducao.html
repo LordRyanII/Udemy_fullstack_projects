@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM em Javascript</title>
+</head>
+<body>
+    <button value="Abrir" onclick="abrirPopup()">
+        Abrir PopUp
+    </button>
+    <button value="fechar" onclick="fecharPopup()">
+        Fechar PopUp
+    </button>
+    <button value="fechar" onclick="Imprime()" style="cursor: pointer;" title="Ao clickar irá imprimir a página">
+        Imprime a página
+    </button>
+    <script>
+        var janela
+        function abrirPopup(){
+            janela = window.open('http:google.com', 'Nova_janela','width=500, height=700')
+        }
+        
+        function fecharPopup(){
+            janela.close()
+        }
+        function Imprime(){
+            window.print()
+        }
+    </script>
+</body>
+</html>
