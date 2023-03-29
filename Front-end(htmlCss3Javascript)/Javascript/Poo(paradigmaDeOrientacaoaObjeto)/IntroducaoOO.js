@@ -2,12 +2,12 @@
 
 class carro {
     constructor(){
-        this.marca = 'marca'
-        this.modelo = 'modelo'
+        this.marca = 'Chevrolet'
+        this.modelo = 'Chevette'
         
     }
 }
 
 let veiculo = new carro()
 
-console.log(veiculo) // retorna =>  {marca: 'marca', modelo: 'modelo'}
+console.log(veiculo) // retorna =>  { marca: 'Chevrolet', modelo: 'Chevette' }
