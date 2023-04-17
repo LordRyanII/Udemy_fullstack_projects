@@ -26,4 +26,3 @@ function ImprimeBuzzFizz(n1) {
   }
   
 console.log(ImprimeBuzzFizz(7))
-  
