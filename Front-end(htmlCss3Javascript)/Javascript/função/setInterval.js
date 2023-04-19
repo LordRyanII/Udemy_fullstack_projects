@@ -10,11 +10,14 @@ const mostraHora = () =>{
     });
 }
 
-setInterval(()=> {
-    console.log(mostraHora)
+function Intervalo(){
+    console.log(mostraHora())
+}
+
+const timer = setInterval(() => {
+    return console.log(mostraHora())
 }, 1000)
 
-
-setTimeout(()=>{
-    clearInterval(mostraHora)
-},1000)
+setTimeout(()=> {
+    clearInterval(timer)
+}, 5000) //A cada 5 segundos para o processo
