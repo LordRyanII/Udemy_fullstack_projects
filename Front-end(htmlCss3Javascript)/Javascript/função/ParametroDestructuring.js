@@ -1,5 +1,5 @@
 // Podemos passar objetos literais, por meio da destruturação
-/*A
+
 function dados({ nome, sobrenome, idade}){
 
     return console.log(nome, sobrenome, idade)
@@ -11,7 +11,7 @@ const obj = {
     idade: 20
 }
 dados(obj)
-*/
+
 
 function Array([ valor1, valor2, valor3 ]){
 
