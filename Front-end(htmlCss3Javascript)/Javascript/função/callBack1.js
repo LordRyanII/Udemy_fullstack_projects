@@ -36,11 +36,16 @@ function f3 (callBack){
    
 }
 
-f1(() => {
-    f2(() => {
-        f3(() => {
-            console.log('Sou um callback')
-        })
-    })
-});
+f1(f1callback)
 
+function f1callback(){
+    f2(f2callback)
+};
+
+function f2callback(){
+    f3(f3callback)
+};
+
+function f3callback(){
+    console.log('Olá mundo!')
+}
