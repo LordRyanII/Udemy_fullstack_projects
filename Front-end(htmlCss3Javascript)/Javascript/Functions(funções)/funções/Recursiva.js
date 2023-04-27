@@ -16,4 +16,5 @@ function recursiva(max){
 
 }
 
-recursiva(1)
+
+recursiva(1);
