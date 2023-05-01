@@ -31,7 +31,7 @@ const idades = pessoas.map(obj => {
 
 const ids = pessoas.map((obj, indice) => {
     
-    const NovoObjeto = {obj};
+    const NovoObjeto = {...obj};
     NovoObjeto.id = (indice + 1);
     return NovoObjeto;
 
