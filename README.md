@@ -26,6 +26,6 @@
  <br>
  -TipeScript
  <br>
- -Php (laravel...);
+ -Php (laravel...)
  <br>
 
