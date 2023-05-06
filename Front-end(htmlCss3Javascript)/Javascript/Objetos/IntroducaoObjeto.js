@@ -1,4 +1,4 @@
-// Exemplos literais de objeto
+// Exemplos de objeto literais
 
 let usuario = {
   nome: "João",
