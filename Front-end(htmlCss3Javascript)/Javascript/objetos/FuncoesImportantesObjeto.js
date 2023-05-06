@@ -1,9 +1,9 @@
 // Funções Importantes dos objetos:
 
 const Pessoa = {
-    nome: 'Rebeca',
-    idade: 13 + ' Anos',
-    peso: 60
+    nome: 'Renata',
+    idade: 20 + ' Anos',
+    peso: 70
 }
 
 console.log(Object.keys(Pessoa))//Irá pegar apenas as chaves;
@@ -45,3 +45,4 @@ const b = {
 const res = Object.assign(destino, a, b) //Assign concatena mais de um objeto
 
 console.log(res) //Resultado da concatenação dos Objetos
+
