@@ -1,5 +1,5 @@
 # Udemy_fullstack_project
- Study of several programming languages, until training as a full Stack professional.
+ Study of several programming languages, until training as a fullStack professional.
  <br>
  <br>
 <strong> # skills # </strong> 
