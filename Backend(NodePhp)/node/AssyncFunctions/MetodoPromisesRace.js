@@ -10,7 +10,7 @@ function aleatorioTempo(min, max){
 function esperaAi(msg, tempo){
     return new Promise((resolve, reject)=> {
         if(typeof msg !== 'string'){
-            reject('BAD VALUE ');
+            reject('Erro');
             return; //Foi necessário adicionar o return para o erro
         }
         setTimeout(()=> {
@@ -28,7 +28,7 @@ const promises = [
     'Outro valor'
 ];
 
-Promise.all(promises) //essa Promise(em maiúsculo) é do construtor não do array
+Promise.race(promises) //essa Promise(em maiúsculo) é do construtor não do array
     .then( valor => {
          console.log(valor)
     })
