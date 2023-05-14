@@ -20,7 +20,7 @@ function esperaAi(msg, tempo){
 
 async function executaPromise(){
     try{
-        const fase1 = await esperaAi('fase1', aleatorioTempo());
+        const fase1 =  esperaAi('fase1', aleatorioTempo());
         console.log(fase1);
 
         const fase2 = await esperaAi('fase2', aleatorioTempo());
@@ -35,3 +35,10 @@ async function executaPromise(){
 };
 
 executaPromise()
+
+/*
+    Status das promises:
+    - pending: criada mas não sabe se o resultado já está disponível;
+    - fulfilled: o resultado da promessa está disponível;
+    - rejected: o resultado da promessa não está disponível.
+*/
