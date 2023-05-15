@@ -43,8 +43,8 @@ form input:focus {
 }
 
 form button {
-  border: none;
   background: var(--primary-color);
+  border: none;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -63,4 +63,5 @@ table {
 }
 tr, td{
   border: 1px solid black;
+  padding: 15px;
 }
