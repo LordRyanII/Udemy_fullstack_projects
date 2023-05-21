@@ -1,5 +1,4 @@
-function Soma(n1, n2){
-    return n1+ n2
-};
+import { idade, nome, sobrenome, soma } from './modulo1';
 
-console.log(Soma(13, 50))
+console.log(nome, sobrenome, idade);
+console.log(soma(5, 10))
