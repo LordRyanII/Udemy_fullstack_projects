@@ -6,7 +6,7 @@ function soma(x,y){
     return x+y
 };
 
-class Pessoa {
+export default class Pessoa {
     constructor(nome, sobrenome, idade){
         this.nome = nome;
         this.sobrenome = sobrenome;

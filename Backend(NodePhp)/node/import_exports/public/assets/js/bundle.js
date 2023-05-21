@@ -11,6 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Pessoa: () => (/* binding */ Pessoa),
+/* harmony export */   "default": () => (/* binding */ Pessoa),
 /* harmony export */   idade: () => (/* binding */ idade),
 /* harmony export */   nome: () => (/* binding */ nome),
 /* harmony export */   sobrenome: () => (/* binding */ sobrenome),
@@ -35,6 +36,7 @@ var Pessoa = /*#__PURE__*/_createClass(function Pessoa(nome, sobrenome, idade) {
   this.sobrenome = sobrenome;
   this.idade = idade;
 });
+
 ;
 
 //se digitar export { nome (variavel) as nome2 }
@@ -109,8 +111,8 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modulo1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modulo1 */ "./src/modulo1.js");
 
-console.log(_modulo1__WEBPACK_IMPORTED_MODULE_0__);
-// const pessoa1 = new Pessoa('Ryan', 'Menezes', 21);
+var pessoa1 = new _modulo1__WEBPACK_IMPORTED_MODULE_0__["default"]('Ryan', 'Menezes', 21);
+console.log(pessoa1);
 
 // console.log(nome2, sobrenome2, idade);
 // console.log(soma(5, 10));
