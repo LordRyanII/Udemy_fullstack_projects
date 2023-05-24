@@ -24,7 +24,7 @@
  <br>
  -Angular;
  <br>
- -TipeScript;
+ -TipeScript
  <br>
  -Php (laravel...)
  <br>
