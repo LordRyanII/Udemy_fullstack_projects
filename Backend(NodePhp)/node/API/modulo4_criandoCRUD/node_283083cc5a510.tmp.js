@@ -1,5 +1,5 @@
 const express = require('express');
-const porta = 3002;
+const porta = 3003;
 const servidor = express();
 
 //Armazenando dados provisoriamente
