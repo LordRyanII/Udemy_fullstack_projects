@@ -6,10 +6,12 @@ const servidor = express();
 // Route params = /curso/2
 // Request body (corpo da requisição) = { nome: 'nodeJS', tipo: 'Backend' }
 
-// localhost:3002/curso/1
-servidor.get('/curso/:id', (req, res) => {
-    const id = req.params.id;
-    return res.json({ curso: `curso: ${id}` });
+// localhost:3002/curso
+servidor.get('/curso', (req, res) => {
+    const id = req.query.nome;
+    return res.json({ nome: `curso de: ${nome}` });
 });
 
 servidor.listen(porta);
+
+//Para fazer a query params, basta digitar: localhost:3002/curso?nome=<nome que quiser>
