@@ -1,5 +1,5 @@
 const express = require('express');
-const porta = 3000;
+const porta = 3001;
 const servidor = express();
 
 servidor.use(express.json()); //serve para usar o body-parser
