@@ -33,6 +33,15 @@ servidor.put('/cursos/:index', (req, res) => {
     return res.json(cursos);
 });
 
+//Delete
+
+servidor.delete('/cursos/:index', (req, res) => {
+    const { index } = req.params;
+    cursos.splice(index, 1);
+
+    return res.json(cursos);
+})
+
 
 servidor.listen(porta);
 
