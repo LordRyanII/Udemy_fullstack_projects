@@ -1,5 +1,5 @@
 const express = require('express');
-const porta = 3000;
+const porta = 3001;
 const servidor = express();
 
 servidor.use(express.json()); //serve para usar o body-parser
@@ -25,9 +25,15 @@ servidor.post('/cursos', (req, res) => {
     return res.json(cursos);
 });
 
-
+//PUT (update):
+servidor.put('/cursos/:index', (req, res) => {
+    const { index } = req.params;
+    const { name } = req.body;
+    cursos[index] = name;
+    return res.json(cursos);
+});
 
 
 servidor.listen(porta);
 
-// https://localhost:3002/cursos
+// https://localhost:3001/cursos
