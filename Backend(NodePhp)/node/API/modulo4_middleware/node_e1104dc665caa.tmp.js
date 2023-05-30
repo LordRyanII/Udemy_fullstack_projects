@@ -1,5 +1,5 @@
 const express = require('express');
-const porta = 3005;
+const porta = 3000;
 const servidor = express();
 
 servidor.use(express.json()); //serve para usar o body-parser
@@ -8,9 +8,8 @@ const cursos = ['Node JS', 'JavaScript', 'React Native']; //Array de cursos
 
 //middleware:
 
-servidor.use((req, res, next) => {
-    console.log(`Requisição Middleware para a url: ${req.url}` );
-    next(); //passa para o próximo middleware
+servidor.use(() => {
+    console.log('Middleware rodando');
 })
 
 // Rotas:
