@@ -1,5 +1,5 @@
 const express = require('express');
-const porta = 3000;
+const porta = 3080;
 const servidor = express();
 
 servidor.use(express.json()); //serve para usar o body-parser
@@ -45,4 +45,4 @@ servidor.delete('/cursos/:index', (req, res) => {
 
 servidor.listen(porta);
 
-// https://localhost:3001/cursos
+// https://localhost:3080/cursos
