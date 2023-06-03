@@ -13,7 +13,7 @@
  <br>
  -Javascript;
  <br>
- -Node.js;
+ -Node.js
 
  <strong> #Future skills # </strong> 
 <br>
