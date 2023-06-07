@@ -1,0 +1,32 @@
+####Exercícios de lógica #######
+
+
+Exercício de soma:
+Escreva um programa que solicite ao usuário dois números e exiba a soma deles.
+
+Exercício de média:
+Escreva um programa que solicite ao usuário três números e exiba a média deles.
+
+Exercício de fatorial:
+Escreva uma função que calcule e retorne o fatorial de um número fornecido pelo usuário.
+
+Exercício de par ou ímpar:
+Escreva um programa que solicite ao usuário um número e verifique se ele é par ou ímpar. Exiba uma mensagem indicando o resultado.
+
+Exercício de palíndromo:
+Escreva uma função que verifique se uma palavra fornecida pelo usuário é um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente). Exiba uma mensagem indicando o resultado.
+
+Exercício de contagem regressiva:
+Escreva um programa que exiba uma contagem regressiva a partir de um número fornecido pelo usuário até zero. Por exemplo, se o usuário fornecer o número 5, o programa deve exibir: 5, 4, 3, 2, 1, 0.
+
+Exercício de tabuada:
+Escreva um programa que solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
+
+Exercício de número primo:
+Escreva uma função que verifique se um número fornecido pelo usuário é primo. Exiba uma mensagem indicando o resultado.
+
+Exercício de soma de elementos:
+Escreva uma função que receba um array de números e retorne a soma de todos os elementos.
+
+Exercício de inversão de string:
+Escreva uma função que inverta uma string fornecida pelo usuário e retorne o resultado.
