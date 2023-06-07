@@ -16,4 +16,4 @@ function verificaNome(nome) {
   }
   
 
-console.log(verificaNome('Ana'))
+console.log(verificaNome('ANA'))
