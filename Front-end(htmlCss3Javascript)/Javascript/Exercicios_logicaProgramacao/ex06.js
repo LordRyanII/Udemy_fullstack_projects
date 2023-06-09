@@ -1,8 +1,8 @@
 // Escreva uma função que verifique se uma palavra fornecida pelo usuário é um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente). Exiba uma mensagem indicando o resultado.Escreva uma função que verifique se uma palavra fornecida pelo usuário é um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente). Exiba uma mensagem indicando o resultado.
 
 function verificaNome(nome) {
-    let nomeMinusculo = nome.toLowerCase();
-    let tamanho = nomeMinusculo.length;
+    let nomeMinusculo = nome.toLowerCase(); //converte para minúscula
+    let tamanho = nomeMinusculo.length; //comprimento
     
     if (typeof nome === 'string') {
       let nomeReverso = nomeMinusculo.split('').reverse().join('');
