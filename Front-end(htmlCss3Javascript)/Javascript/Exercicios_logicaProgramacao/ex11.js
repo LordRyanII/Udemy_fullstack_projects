@@ -23,5 +23,5 @@ class contaBancaria {
 const conta = new contaBancaria(1001, 1500);
 conta.AdicionaSaldo(800);
 conta.Extrato();
-conta.Saque(800);
+conta.Saque(50);
 conta.Extrato();
