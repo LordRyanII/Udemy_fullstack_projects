@@ -17,5 +17,3 @@ Escreva uma função que receba um número como parâmetro e calcule o fatorial 
 Escreva uma função que receba uma string como parâmetro e verifique se é um palíndromo. Um palíndromo é uma palavra que se lê da mesma forma de trás para frente, desconsiderando espaços e pontuações. A função deve retornar true se a string for um palíndromo e false caso contrário.
 
 Escreva uma função que receba um número como parâmetro e verifique se é um número primo. Um número primo é aquele que é divisível apenas por 1 e por ele mesmo. A função deve retornar true se o número for primo e false caso contrário.
-
-Espero que esses exercícios sejam úteis para você praticar suas habilidades em JavaScript!
