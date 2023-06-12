@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const porta = 4006
+const porta = 4007
 const routes = require('./routes')
 
 app.use(express.urlencoded({extended:true})); //Para tratar o body da requisição

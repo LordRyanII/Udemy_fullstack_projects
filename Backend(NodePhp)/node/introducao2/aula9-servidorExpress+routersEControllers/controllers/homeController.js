@@ -5,4 +5,4 @@ exports.paginaInicial = (req, res) => {
     <button>ENVIAR</button>
     </form>
     `)
-}
+};
