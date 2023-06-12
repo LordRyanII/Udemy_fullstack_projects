@@ -7,5 +7,5 @@ routes.get('/home', rotaPrincipal.homePagina);
 routes.get('/sobre', rotaSobre.sobre);
 
 
-module.exports = routes
+module.exports = routes //importa o modúlo das rotas
 
