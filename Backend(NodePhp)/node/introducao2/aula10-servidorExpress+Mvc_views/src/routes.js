@@ -3,7 +3,7 @@ const route = express.Router();
 const homeController = require('./controllers/homeController.js');
 const contatoController = require('./controllers/contatoController.js');
 //Rota da home
-route.get('/', homeController.paginaInicial);
+route.get('/paginaInicial', homeController.paginaInicial);
 route.post('/', homeController.trataPost);
 
 //Rota de contatos
