@@ -1,12 +1,19 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const connectionString = 'mongodb+srv://ryanmenezes:usuarior@cursojs01.jz8j9mg.mongodb.net/BASEDEDADOS'
-mongoose.connect(connectionString);
+mongoose.connect(process.env.CONNECTIONSTRING, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    app.emit('Pronto')
+  })
+  .catch(error => {
+    console.log(`Ocorreu um erro: ${error}`)
+  })
+
 const routes = require('./routes');
 const meuMiddleware = require('./src/middlewares/meuMiddleware.js') //ou const  {meuMiddleware} = require('/src...')
 const path = require('path');
-const porta = 5005
+const porta = 5000
 app.use(express.urlencoded({ extended: true })); //tratar corpo da requisição
 
 //Trata de rotas
@@ -17,11 +24,15 @@ app.set('view engine', 'ejs');
 
 app.use(routes);
 
-//Middleware
+/*Middleware
 app.use(meuMiddleware.meuMiddleware);
 app.use(routes)
+*/
 
-app.listen(porta, () => {
-  console.log(`Acessar http://localhost:${porta}`);
+app.on('Pronto', () => {
+  app.listen(porta, () => {
+    console.log(`Acesse: http://localhost:${porta}`);
+  });
 });
+
 
