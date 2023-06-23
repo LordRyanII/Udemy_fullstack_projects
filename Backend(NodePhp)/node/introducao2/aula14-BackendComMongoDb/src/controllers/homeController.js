@@ -1,8 +1,8 @@
 const HomeModel = require('../models/homeModel.js');
 
 HomeModel.create({
-  titulo: 'Um titulo de Testes',
-  descricao: 'Descrição de testes',
+  titulo: 'Renata',
+  descricao: 'Amor da minha vida',
 })
   .then(dados => {
     console.log(`Dados criados com sucesso! ${JSON.stringify(dados)}`);
