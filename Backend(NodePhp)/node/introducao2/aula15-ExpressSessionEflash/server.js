@@ -10,6 +10,10 @@ mongoose.connect(process.env.CONNECTIONSTRING, { useNewUrlParser: true, useUnifi
     console.log(`Ocorreu um erro: ${error}`)
   })
 
+const session = require('express-session');
+const MongoStore = require('connect-mongo');
+const flash = require('connect-flash');
+
 const routes = require('./routes');
 const meuMiddleware = require('./src/middlewares/meuMiddleware.js') //ou const  {meuMiddleware} = require('/src...')
 const path = require('path');
@@ -19,20 +23,27 @@ app.use(express.urlencoded({ extended: true })); //tratar corpo da requisição
 //Trata de rotas
 app.use(express.static(path.resolve(__dirname, 'public')));
 
+const sessionOptions = session({
+  secret: 'nbjnb nj njnjn n njnjn rya ren nez sky as6()',
+  store: MongoStore.create({ mongoUrl: process.env.CONNECTIONSTRING }),
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    maxAge: 1000 * 60 * 60 * 24 * 7,
+    httpOnly: true
+  }
+})
+
+app.use(sessionOptions);
+app.use(flash());
+
 app.set('views', path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
 
 app.use(routes);
-
-/*Middleware
-app.use(meuMiddleware.meuMiddleware);
-app.use(routes)
-*/
 
 app.on('Pronto', () => {
   app.listen(porta, () => {
     console.log(`Acesse: http://localhost:${porta}`);
   });
 });
-
-
