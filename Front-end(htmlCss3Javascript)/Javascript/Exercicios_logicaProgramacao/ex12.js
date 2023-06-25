@@ -18,7 +18,7 @@ function confirmaPizzas(decisao) {
     const regex = /n[aã]o/i
     if (input === 'SIM') {
         console.log(`PEDIDO CONFIRMADO: ${listaPizzas.length} pizzas, ${listaPizzas}`)
-    } else if (input === 'NAO') {
+    } else if (regex.test(input) === true) {
         console.log("PEDIDO CANCELADO")
     }
     else {
@@ -26,4 +26,6 @@ function confirmaPizzas(decisao) {
     }
 };
 
-confirmaPizzas('nao')
+confirmaPizzas('sim');
+confirmaPizzas('não');
+confirmaPizzas('ok');
