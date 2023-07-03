@@ -1,0 +1,18 @@
+Claro! Aqui estão alguns exemplos de exercícios envolvendo módulos em JavaScript:
+
+Exercício 1:
+Crie um módulo chamado "calculadora" que exporte as funções de soma, subtração, multiplicação e divisão. Em seguida, importe esse módulo em um arquivo principal e utilize as funções exportadas para realizar operações matemáticas simples.
+
+Exercício 2:
+Crie um módulo chamado "validador" que exporte uma função chamada "validarEmail". Essa função deve receber um email como parâmetro e retornar verdadeiro se o email for válido e falso caso contrário. Em seguida, importe esse módulo em um arquivo principal e utilize a função exportada para validar um email digitado pelo usuário.
+
+Exercício 3:
+Crie um módulo chamado "geradorAleatorio" que exporte uma função chamada "gerarNumero". Essa função deve retornar um número inteiro aleatório entre um valor mínimo e um valor máximo, passados como parâmetros. Em seguida, importe esse módulo em um arquivo principal e utilize a função exportada para gerar um número aleatório dentro de um intervalo específico.
+
+Exercício 4:
+Crie um módulo chamado "conversor" que exporte duas funções: "celsiusParaFahrenheit" e "fahrenheitParaCelsius". Essas funções devem receber uma temperatura como parâmetro e realizar a conversão de Celsius para Fahrenheit e de Fahrenheit para Celsius, respectivamente. Em seguida, importe esse módulo em um arquivo principal e utilize as funções exportadas para converter uma temperatura fornecida pelo usuário.
+
+Exercício 5:
+Crie um módulo chamado "gerenciadorArquivos" que exporte uma função chamada "lerArquivo". Essa função deve receber o nome de um arquivo como parâmetro e retornar o conteúdo desse arquivo. Em seguida, importe esse módulo em um arquivo principal e utilize a função exportada para ler e exibir o conteúdo de um arquivo específico.
+
+Esses são apenas alguns exemplos de exercícios que envolvem o uso de módulos em JavaScript. Eles podem ajudar você a praticar a criação e importação de módulos para modularizar e reutilizar seu código de forma mais eficiente.
