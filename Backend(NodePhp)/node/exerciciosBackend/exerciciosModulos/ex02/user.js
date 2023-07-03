@@ -6,4 +6,5 @@ function verificaEmail (input){
 
 }
 
-verificaEmail('nada')
+verificaEmail('ryanoliveiram2015@gmail.com')
+verificaEmail(123)
