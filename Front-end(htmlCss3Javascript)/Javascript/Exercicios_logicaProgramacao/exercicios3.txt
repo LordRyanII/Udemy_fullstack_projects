@@ -1,0 +1,13 @@
+Ordenação de array: Escreva uma função que receba um array de números como parâmetro e retorne o mesmo array ordenado em ordem crescente.
+
+Contagem de vogais: Escreva uma função que conte o número de vogais em uma string. Considere que a string contém apenas letras minúsculas.
+
+Verificação de número primo: Escreva uma função que verifique se um número é primo. Um número primo é aquele que é divisível apenas por 1 e por ele mesmo.
+
+Inversão de string: Escreva uma função que inverta uma string. Por exemplo, a string "Hello" deve ser invertida para "olleH".
+
+FizzBuzz: Escreva um programa que imprima os números de 1 a 100. Mas, para múltiplos de 3, imprima "Fizz" em vez do número, e para múltiplos de 5, imprima "Buzz". Para números que são múltiplos de ambos, 3 e 5, imprima "FizzBuzz".
+
+Verificação de parênteses balanceados: Escreva uma função que verifique se uma string contém parênteses balanceados. Ou seja, todos os parênteses de abertura têm um correspondente parêntese de fechamento na ordem correta.
+
+Números primos dentro de um intervalo: Escreva uma função que receba dois números como parâmetros e retorne um array contendo todos os números primos dentro desse intervalo.
