@@ -4,7 +4,7 @@ const cep = (cep) => {
     if (typeof cep === 'number') {
         const url = `https://brasilapi.com.br/api/cep/v1/${cep}`;
         try {
-            axios.get(url)
+             axios.get(url)
                 .then(response => console.log(response.data))
                 .catch((error) => console.log("Erro: Cep não encontrado ou inválido"));
         } catch (error) {
