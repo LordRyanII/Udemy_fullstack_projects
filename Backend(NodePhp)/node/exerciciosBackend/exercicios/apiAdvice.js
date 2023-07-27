@@ -1,15 +1,25 @@
 const url = 'https://api.adviceslip.com/advice';
 const axios = require('axios');
 
-const api = () => {
-    axios.get(url)
-        .then(response => exibeApi(response.data)) //Axios transforma json em objeto nativamente
-        .catch((error) => console.log("Error: ", error))
-}
 
-const exibeApi = (resposta) => {
-    const fraseAleatoria = resposta['slip']['advice'];
-    console.log(fraseAleatoria);
+const exibeApi = () => {
+    const exibeDados = setInterval(() => {
+        const api = () => {
+            axios.get(url)
+                .then(response => {
+                     console.log(response.data.slip.advice);
+                })
+                .catch((error) => console.log("Error nas dicas", error));
+        }
+        return api()
+    }, 1000);
+
+    const desliga = setTimeout(() => {
+        clearInterval(exibeDados);
+    }, 5000);
+
+    return exibeDados;
+
 };
 
-api();
+exibeApi();
