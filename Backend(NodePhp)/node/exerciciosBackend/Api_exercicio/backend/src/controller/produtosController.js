@@ -21,7 +21,7 @@ class ProdutosController {
 
     dadosVazios() {
         return {
-            message: 'Não existem registros no banco.'
+            message: 'Não existe registro no banco.'
         };
     }
 
