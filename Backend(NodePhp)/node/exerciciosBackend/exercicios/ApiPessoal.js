@@ -15,5 +15,20 @@ function tratamentoApi(obj){
     return console.log(dadosProcessados.toString())
 }
 
+dadosApi() //Chamada Get
 
-dadosApi()
+const enviaDados = (req) => {
+    axios.post(url, {
+        produto:'Café expresso',
+        descricao: '500ml'
+    })
+    .then(response => imprime(response.data))
+    .catch(error => console.log('Sem dados'))
+};
+
+function imprime(obj){
+    const dadosApi = obj
+    console.log(dadosApi)
+}
+
+enviaDados() //Chamada Post
