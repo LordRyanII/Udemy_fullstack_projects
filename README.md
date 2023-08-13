@@ -13,12 +13,19 @@
  <br>
  -Javascript;
  <br>
- -Node.js 
+ -React.js;
+ <br>
+ -Node.js;
+ <br>
+ -Express;
+ <br>
+ - Sql
+ <br>
+ -noSql
 
  <strong> #Future skills # </strong> 
 <br>
 
- -React;
  <br>
  -Vue;
  <br>
