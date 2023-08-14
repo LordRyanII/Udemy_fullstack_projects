@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BomDia from './componentes/BomDia';
 
-//      nome do Componente |Propriedades (vars) | Nome do elemento html que será substituído
-ReactDOM.render(<BomDia nome='Ryan' idade= {21}/>, document.getElementById('root'))
+import Saudacao from './componentes/Multiplos';
+
+ReactDOM.render(
+    <div>
+        <Saudacao.BoaNoite nome='Renata'/>
+        <Saudacao.BoaTarde nome='Lily'/>
+    </div>
+,document.getElementById('root'))
