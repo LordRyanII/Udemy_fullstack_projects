@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Arthur Oliver",
+            "email": "aoliveira@hotmail.io"
+        }, 
+        {
+            "id": 2,
+            "name": "Renata Alves Da Luz",
+            "email": "reluz@yahoo.io"
+        },
+        {
+            "id": 3,
+            "name": "Kaynera Madeira",
+            "email": "Kaynera@git.io"
+        }
+    ]
+}
