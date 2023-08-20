@@ -1,8 +1,14 @@
-import './Footer.css';
-import React from 'react';
+import "./Footer.css";
+import React from "react";
 
-export default props =>
+export default (props) => {
+  return <footer className="footer">
+    <span>
+        Desenvolvido com <i className="fa - fa-heart text-danger"></i> por <strong>Ryan Menezes</strong>
+    </span>
+    </footer>;
+};
 
-        <footer className='footer'>
-            Rodapé
-        </footer>
+
+
+//Shift + alt + f
