@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Formulario from './componentes/Saudacao';
+import Pai from './componentes/Pai';
 
 
 ReactDOM.render(
-    <Formulario/>
+    <div>
+        <Pai nome="Paulo" sobrenome="Silva"/>
+    </div>
 ,document.getElementById('root'))
