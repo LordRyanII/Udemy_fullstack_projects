@@ -37,6 +37,19 @@ class ProdutosController {
             res.status(500).send({ error: 'Erro ao criar produto.' });
         }
     }
+
+   /* async deletarDados(req, res) {
+        const { produto, descricao } = req.body;
+
+        try {
+            const novoProduto = new ProdutoModel({ produto, descricao });
+            await novoProduto.save();
+            res.status(201).send({ success: 'Produto criado com sucesso.' });
+        } catch (err) {
+            console.error('Erro ao criar produto:', err);
+            res.status(500).send({ error: 'Erro ao criar produto.' });
+        }
+    } Em construção*/
 }
 
 module.exports = new ProdutosController();
