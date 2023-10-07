@@ -1,0 +1,61 @@
+Manipulação de Strings:
+
+Crie uma função que conte o número de caracteres em uma string.
+Escreva uma função que inverta uma string.
+
+Estruturas de Controle:
+
+
+Implemente um programa que determine se um número é par ou ímpar.
+Crie um programa que calcule a média de uma lista de números.
+
+
+Arrays:
+
+Escreva uma função que encontre o maior número em um array.
+Crie uma função que filtre todos os números pares de um array.
+
+
+Objetos:
+
+Crie um objeto representando uma pessoa e acesse suas propriedades.
+Implemente um objeto que represente uma calculadora com funções para adição, subtração, multiplicação e divisão.
+
+
+Funções:
+
+Implemente uma função que calcule o fatorial de um número.
+Escreva uma função que determine se uma palavra é um palíndromo.
+
+
+Promises e Assíncrono:
+
+Crie uma função que retorne uma Promise que seja resolvida após um determinado período de tempo.
+Use async/await para lidar com múltiplas Promises e calcular seus resultados.
+Manipulação do DOM:
+
+Crie uma página HTML simples e use JavaScript para manipular elementos do DOM.
+Implemente um contador que aumenta quando um botão é clicado.
+
+
+Eventos:
+
+Manipule eventos de mouse e teclado em uma página web.
+Implemente um mecanismo simples de "to-do list" que permita adicionar e remover tarefas.
+
+
+Local Storage:
+
+Use o localStorage para criar uma aplicação que armazena e exibe informações do usuário, como nome e idade.
+Validação de Formulários:
+
+
+Crie um formulário HTML e use JavaScript para validar os campos antes de enviá-los.
+Tratamento de Erros:
+
+Implemente tratamento de erros em suas funções para lidar com exceções.
+Requisições HTTP:
+
+
+
+Faça uma requisição HTTP assíncrona usando o objeto XMLHttpRequest ou a API fetch.
