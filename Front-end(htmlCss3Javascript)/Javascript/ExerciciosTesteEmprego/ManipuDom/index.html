@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Contador</h1>
+    <div class="display">
+        <p>Atualmente está no número: <span class="numero">0</span></p>
+        <button onclick="Acrescentar()">Acrescentar</button>
+    </div>
+    <script type="text/javascript">
+        function Acrescentar(){
+            const numero = document.querySelector('.numero');
+            let contagem = Number(numero.textContent); // Acesse o texto dentro do span
+            let contador = contagem + 1;
+            
+            numero.textContent = contador; // Atualize o texto dentro do span
+        }
+    </script>
+</body>
+</html>

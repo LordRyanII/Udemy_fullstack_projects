@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Eventos</h1>
+    <p>
+        Aqui mostra os eventos: <span class="resultado"></span>
+    </p>
+    <button class="evento">Disparar evento</button>
+    <script>
+        const Button = document.querySelector('.evento');
+        const div = document.querySelector('.resultado')
+
+        Button.addEventListener("click", (e) => {
+            return div.textContent = 'Disparou evento de clique';
+        });
+
+        Button.addEventListener("dblclick", (e) => {
+            return div.textContent = 'Disparou double clique';
+        });
+
+        Button.addEventListener("mouseover", (e) => {
+            return div.textContent = 'Passou o mouse sobre';
+        });
+
+        Button.addEventListener("mouseout", (e) => {
+            return div.textContent = 'Retirou o mouse';
+        });
+
+
+    </script>
+</body>
+
+</html>

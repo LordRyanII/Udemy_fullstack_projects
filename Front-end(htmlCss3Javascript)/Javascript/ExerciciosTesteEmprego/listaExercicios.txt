@@ -24,7 +24,6 @@ Implemente um objeto que represente uma calculadora com funções para adição,
 
 Funções:
 
-Implemente uma função que calcule o fatorial de um número.
 Escreva uma função que determine se uma palavra é um palíndromo.
 
 
@@ -32,6 +31,7 @@ Promises e Assíncrono:
 
 Crie uma função que retorne uma Promise que seja resolvida após um determinado período de tempo.
 Use async/await para lidar com múltiplas Promises e calcular seus resultados.
+
 Manipulação do DOM:
 
 Crie uma página HTML simples e use JavaScript para manipular elementos do DOM.
@@ -47,6 +47,7 @@ Implemente um mecanismo simples de "to-do list" que permita adicionar e remover 
 Local Storage:
 
 Use o localStorage para criar uma aplicação que armazena e exibe informações do usuário, como nome e idade.
+
 Validação de Formulários:
 
 
