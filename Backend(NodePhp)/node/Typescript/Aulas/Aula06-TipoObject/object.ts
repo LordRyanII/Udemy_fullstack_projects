@@ -1,13 +1,16 @@
-const objetoA : {
+let objetoA: {
     Nome: string;
     data: number;
-    sexo?: string
+    sexo?: string;
+    [key: string]: unknown;
 } = {
-    Nome: "Juan",
-    data: 6,
-}
+    Nome: '',
+    data: 0,
+};
 
-const Nome = objetoA.sexo = 'Masculino';
+objetoA.sexo = 'Masculino';
+objetoA.Nome = 'Dagoberto';
+objetoA.data = 15,
+objetoA.sobrenome = 'Irinei'
 
-console.log(Nome)
-
+console.log(objetoA);
