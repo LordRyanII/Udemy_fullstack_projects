@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>
+            <h2>
+                Formulario de Cadastro
+            </h2>
+            <form>
+                <span class="aviso"></span><br>
+                Nome: <input type="text" class="nomeUser">
+                email: <input type="text" class="emailUser">
+                senha: <input type="password" class="senhaUser"> <br>
+                <br>
+                <button onclick="Submit()">Submit</button>
+
+            </form>
+        </legend>
+    </fieldset>
+    <script>
+        function Submit() {
+            const nome = document.querySelector('.nomeUser').value;
+            const email = document.querySelector('.emailUser').value;
+            const senha = document.querySelector('.senhaUser').value;
+            const aviso = document.querySelector('.aviso').value
+
+            const emailVerificado = verifiqueEmail(email);
+            const senhaVerificada = verifqueSenha(senha);
+
+            emailVerificado();
+            senhaVerificada();
+        }
+
+        function verifiqueEmail(email) {
+            if (email === '' || email === null) {
+                return 'email vazio'
+            } else if (email.includes('@') || email.includes('.com')) {
+                return true
+            } else {
+                return false
+            }
+        }
+
+        function senhaVerificada(senha) {
+            if (senha === '' || senha === null) {
+                return 'senha vazia'
+            } else if (senha.length > 5 && senha.includes('@')) {
+                return true
+            } else {
+                return false
+            }
+        }
+    </script>
+</body>
+
+</html>
