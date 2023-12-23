@@ -1,20 +1,35 @@
-class Pizzaria {
-    constructor(nome, ...produtos){
-        this.nome = nome;
-        this.produtos = produtos;
+class Cliente {
+    constructor(nome, email, celular) {
+        this.Nome = nome;
+        this.Email = email;
+        this.Celular = celular;
     }
-    adicionarProduto() {
-        const items = [];
 
-        items.push(this.produtos);
-
-        return items
-    }
-    notaFiscal(){
-        return console.log(`Pizzaria Ramos, cliente: ${this.nome}, pedidos: ${this.adicionarProduto()} total de pedidos: ${this.produtos.length}`);
+    infoCadastro() {
+        return {
+            Nome: this.Nome,
+            Email: this.Email,
+            Celular: this.Celular
+        };
     }
 }
 
-const pizzariaRamos = new Pizzaria('Claudio', "Pepperoni", 'Calabresa', 'Mussarela');
+class Pizzaria extends Cliente {
+    constructor(nome, email, celular, ...produtos) {
+        super(nome, email, celular);
+        this.produtos = produtos;
+    }
 
-pizzariaRamos.notaFiscal()
+    adicionarProduto(produto) {
+        this.produtos.push(produto);
+    }
+
+    notaFiscal() {
+        console.log(`Pizzaria Ramos, cliente: ${this.Nome}, email: ${this.Email},Celular: ${this.celular} pedidos: ${this.produtos.join(', ')} total de pedidos: ${this.produtos.length}`);
+    }
+}
+
+const pizzariaRamos = new Pizzaria('Claudio', 'cliente@email.com', '123456', 'Pepperoni', 'Calabresa', 'Mussarela');
+
+pizzariaRamos.adicionarProduto('Margherita');
+pizzariaRamos.notaFiscal();

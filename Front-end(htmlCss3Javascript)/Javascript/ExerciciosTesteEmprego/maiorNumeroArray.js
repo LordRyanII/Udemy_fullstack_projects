@@ -3,10 +3,10 @@
 const maiorNumero = (...numeros) => {
     const maior = numeros.reduce((numero, propriedade) => {
         return numero > propriedade? numero: propriedade //Retorna o maior número do arrray
-    })
+    });
 
-    return maior
+    return maior;
 
-}
+};
 
-console.log(maiorNumero(50,100,250,1000))
+console.log(maiorNumero(50,100,250,1000));
