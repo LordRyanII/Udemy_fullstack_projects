@@ -11,15 +11,15 @@ const Calculadora = (objetos: objeto): string => {
 
   if (simbolo === "+") {
     const resultado = numero1 + numero2;
-    return `Soma igual a ${resultado}`
-  }else if(simbolo === "-"){
+    return `Soma igual a ${resultado}`;
+  } else if (simbolo === "-") {
     const resultado = numero1 - numero2;
-    return `Subtração igual a ${resultado}`
-  }else if(simbolo === "*"){
+    return `Subtração igual a ${resultado}`;
+  } else if (simbolo === "*") {
     const resultado = numero1 * numero2;
-    return `Multiplicação igual a ${resultado}`
-  }else {
-    return 'Insira um valor'
+    return `Multiplicação igual a ${resultado}`;
+  } else {
+    return "Insira um valor";
   }
 };
 
@@ -30,11 +30,10 @@ const objetoSoma: objeto = {
 };
 
 const objetoSubtracao: objeto = {
-    numero1: 25,
-    numero2: 10,
-    simbolo: "-",
-  };
-  
+  numero1: 25,
+  numero2: 10,
+  simbolo: "-",
+};
 
 console.log(Calculadora(objetoSoma));
 console.log(Calculadora(objetoSubtracao));
