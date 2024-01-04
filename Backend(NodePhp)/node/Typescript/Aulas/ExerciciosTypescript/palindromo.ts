@@ -5,7 +5,6 @@ const verificaPalindromo = (palavra: string): string => {
     return palavra.toLocaleLowerCase() === palavraReverse? `A palavra ${palavra} é um palíndromo`: `A palavra ${palavra} NÃO é um palíndromo`;
 
 };
-
  
 console.log(verificaPalindromo('Ryan'));
 console.log(verificaPalindromo('Ana'));
