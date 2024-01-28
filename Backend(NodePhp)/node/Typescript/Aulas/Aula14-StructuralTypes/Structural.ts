@@ -13,4 +13,4 @@ const sentUser = {username: 'João', password: '12345'};
 
 const logged1 = verifyUser(bdUser, sentUser);
 
-console.log(logged1);
+console.log(logged1);                                                  
