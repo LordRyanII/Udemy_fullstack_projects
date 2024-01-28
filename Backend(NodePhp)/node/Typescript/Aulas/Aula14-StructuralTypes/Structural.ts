@@ -1,0 +1,1 @@
+type verifyUserFn = (user: User, sentValue: User) => boolean;
