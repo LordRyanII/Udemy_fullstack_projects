@@ -13,8 +13,8 @@ class Pessoa1 {
 }
 
 class Habilidades extends Pessoa1 {
-  Profissao: string;
-  Habilidade: string;
+  readonly Profissao: string;
+  readonly Habilidade: string;
 
   constructor(
     nome: string,
@@ -26,7 +26,7 @@ class Habilidades extends Pessoa1 {
     this.Profissao = profissao;
     this.Habilidade = habilidades;
   }
-  public MostrarHabilidades():string {
+  public MostrarHabilidades(): string {
     return `O ${this.Nome}, tem ${this.Idade}anos e, é um ${this.Profissao}, possui a habilidade de ${this.Habilidade}.`;
   }
 }

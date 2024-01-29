@@ -15,14 +15,14 @@ export class Empresa {
       console.log(`Nome: ${colaborador.nome}`);
     }
   }
-};
+}
 
 export class Colaborador {
   constructor(
     public readonly nome: string,
     public readonly sobrenome: string
   ) {}
-};
+}
 
 const empresa1 = new Empresa("Udemy", "221.1770.00001");
 console.log(empresa1);
