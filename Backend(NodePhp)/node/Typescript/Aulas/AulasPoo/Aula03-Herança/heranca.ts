@@ -16,14 +16,22 @@ class Pessoa1 {
   }
 };
 
-export class Aluno extends Pessoa1 {};
+export class Aluno extends Pessoa1 {
+  public getTabelaAlunos(): void {
+      const objetoTabela = {
+        Nome: this.nome,
+        Sobrenome: this.sobrenome,
+        Cpf: this.cpf
+      }
+
+      return console.table(objetoTabela);
+  };
+};
 
 export class Cliente extends Pessoa1 {};
 
-const pessoa = new Aluno('Linus', 'Torvalds', 30, '123.144.150-09');
 const aluno = new Aluno('Linus', 'Torvalds', 30, '123.144.150-09');
-const cliente =  new Cliente('Marcos', 'Souza', 28, '678.901-23');
 
-console.log(aluno);
-console.log(cliente);
-console.log(pessoa.getIdade());
+aluno.getTabelaAlunos();
+
+
