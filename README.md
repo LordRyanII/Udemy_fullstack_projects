@@ -13,9 +13,11 @@
  <br>
  -Javascript;
  <br>
- -TipeScript;
+ -TypeScript;
  <br>
  -React.js;
+ <br>
+ -Vue;
  <br>
  -Node.js;
  <br>
@@ -30,15 +32,15 @@
 <br>
 
  <br>
- -Vue;
  <br>
  -Angular;
  <br>
- -TipeScript;
- <br>
  -Java
  <br>
+ - Springboot
  <br>
+
+ 
  
  ...
 
