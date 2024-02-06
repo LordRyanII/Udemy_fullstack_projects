@@ -13,6 +13,8 @@
  <br>
  -Javascript;
  <br>
+ -TipeScript;
+ <br>
  -React.js;
  <br>
  -Node.js;
@@ -22,6 +24,7 @@
 -Sql
  <br>
  -noSql
+ 
 
  <strong> #Future skills # </strong> 
 <br>
@@ -33,7 +36,8 @@
  <br>
  -TipeScript;
  <br>
- -Php (laravel...)
+ -Java
+ <br>
  <br>
  
  ...
