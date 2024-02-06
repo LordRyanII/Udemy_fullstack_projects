@@ -14,24 +14,22 @@ class Pessoa1 {
   public getNomeCompleto(): string {
     return this.nome + this.sobrenome;
   }
-};
+}
 
 export class Aluno extends Pessoa1 {
   public getTabelaAlunos(): void {
-      const objetoTabela = {
-        Nome: this.nome,
-        Sobrenome: this.sobrenome,
-        Cpf: this.cpf
-      }
+    const objetoTabela = {
+      Nome: this.nome,
+      Sobrenome: this.sobrenome,
+      Cpf: this.cpf,
+    };
 
-      return console.table(objetoTabela);
-  };
-};
+    return console.table(objetoTabela);
+  }
+}
 
-export class Cliente extends Pessoa1 {};
+export class Cliente extends Pessoa1 {}
 
-const aluno = new Aluno('Linus', 'Torvalds', 30, '123.144.150-09');
+const aluno = new Aluno("Linus", "Torvalds", 30, "123.144.150-09");
 
 aluno.getTabelaAlunos();
-
-
