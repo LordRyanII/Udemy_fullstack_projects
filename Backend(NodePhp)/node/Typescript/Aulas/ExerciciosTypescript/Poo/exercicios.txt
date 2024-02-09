@@ -1,10 +1,10 @@
-Certamente! Aqui estão alguns exercícios de TypeScript com Programação Orientada a Objetos (POO) para você praticar:
+Certamente! Aqui estão alguns exercícios de TypeScript com Programação Orientada a Objetos (POO) para você praticar: 
 
 Criando uma Classe:
-Crie uma classe Carro com propriedades como marca, modelo, ano e métodos como ligar e desligar.
+Crie uma classe Carro com propriedades como marca, modelo, ano e métodos como ligar e desligar. OK!
 
 Herança:
-Crie uma classe Veiculo que tenha propriedades comuns a todos os veículos, como numeroRodas e cor. Em seguida, faça a classe Carro herdar de Veiculo.
+Crie uma classe Veiculo que tenha propriedades comuns a todos os veículos, como numeroRodas e cor. Em seguida, faça a classe Carro herdar de Veiculo. OK!
 
 Interfaces:
 Crie uma interface Animal com propriedades como nome e idade. Em seguida, crie uma classe Cachorro que implemente a interface Animal.
