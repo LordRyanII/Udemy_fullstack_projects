@@ -13,7 +13,11 @@
  <br>
  -Javascript;
  <br>
+ -TypeScript;
+ <br>
  -React.js;
+ <br>
+ -Vue;
  <br>
  -Node.js;
  <br>
@@ -22,19 +26,21 @@
 -Sql
  <br>
  -noSql
+ 
 
  <strong> #Future skills # </strong> 
 <br>
 
  <br>
- -Vue;
  <br>
  -Angular;
  <br>
- -TipeScript;
+ -Java
  <br>
- -Php (laravel...)
+ - Springboot
  <br>
+
+ 
  
  ...
 
