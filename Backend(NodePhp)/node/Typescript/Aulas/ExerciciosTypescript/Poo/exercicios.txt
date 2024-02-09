@@ -13,7 +13,7 @@ Métodos Estáticos:
 Adicione um método estático à classe Calculadora que realiza a adição de dois números.
 
 Encapsulamento:
-Crie uma classe ContaBancaria com propriedades privadas como saldo e métodos públicos para depositar e sacar.
+Crie uma classe ContaBancaria com propriedades privadas como saldo e métodos públicos para depositar e sacar. Ok!
 
 Polimorfismo:
 Crie uma interface FormaGeometrica com um método calcularArea(). Em seguida, crie classes como Circulo e Quadrado que implementam essa interface.
