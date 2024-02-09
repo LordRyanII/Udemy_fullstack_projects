@@ -1,20 +1,21 @@
 public class App {
-    int preco = 400;
-    int compra = 150;
+    public String getNome() {
+        String nome = "Ryan";
 
-    void comprar() {
-
-        if (compra <= preco) {
-            System.out.println("Compra realizada com sucesso!");
-            preco -= compra;
-            System.out.println("O novo preço do produto é de: " + preco);
-        } else {
-            System.out.println("Insuficiente dinheiro para a compra.");
-        }
+        return nome;
     }
 
-    public void main(String[] args) {
-        App app = new App();
-        app.comprar();
+    void main() {
+        App nome = new App();
+        System.out.println("Olá, eu sou o(a) " + nome.getNome() + ". Tudo bem?");
     }
 }
+
+/*
+ * Componente app
+ * -
+ * -
+ * -
+ * 
+ * 
+ */
