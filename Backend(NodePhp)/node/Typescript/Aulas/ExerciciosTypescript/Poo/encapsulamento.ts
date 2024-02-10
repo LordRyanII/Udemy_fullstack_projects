@@ -4,7 +4,7 @@ class ContaBancaria {
   contaValor: number[] = [];
   constructor(public readonly conta: number, public readonly agencia: number) {}
 
-  depositar(saldo: number): void {
+  public depositar(saldo: number): void {
     const saldoInicial = 0;
     const resultado = saldoInicial + saldo;
     this.contaValor.push(resultado);
@@ -14,12 +14,14 @@ class ContaBancaria {
     );
   }
 
-  sacar(valor: number): void {
+  public sacar(valor: number): void {
     const resultadoSaque = this.contaValor[0] - valor;
+    this.contaValor.push(resultadoSaque);
     return console.log("Saque bem sucedido, valor em conta:" + resultadoSaque);
   }
 }
 
 const depositante = new ContaBancaria(5550, 20002);
 depositante.depositar(1000);
+depositante.sacar(150);
 depositante.sacar(150);
