@@ -25,32 +25,52 @@ class rhSystem {
   }
 }
 
-class funcionarios extends rhSystem {
-  public getFuncionarias(): any {
+class Funcionarios extends rhSystem {
+  public getFuncionarias(): void {
     const listaFuncionarios = this.getFuncionarios();
     const funcionarias = listaFuncionarios.filter((obj: any) => {
       return obj.genero === "F";
     });
-    return funcionarias;
+    return console.table(funcionarias);
   }
 
-  public getFuncionariosMasculinos(): any {
+  public getFuncionariosMasculinos(): void {
     const listaFuncionarios = this.getFuncionarios();
     const funcionariosMasculinos = listaFuncionarios.filter((obj: any) => {
       return obj.genero === "M";
     });
-    return funcionariosMasculinos;
+    return console.table(funcionariosMasculinos);
   }
 
-  public getFuncionariosBrasil(): any {
+  public getFuncionariosBrasil(): void {
     const listaFuncionarios = this.getFuncionarios();
     const brasileiros = listaFuncionarios.filter((obj: any) => {
       return obj.pais === "Brasil";
     });
-    return brasileiros;
+    return console.table(brasileiros);
   }
 }
 
-const listaFuncionarios = new funcionarios();
+class searchFuncionarios extends rhSystem {
+  public buscarPorid(idPesquisa: number): any {
+    const listaFuncionarios = this.getFuncionarios();
+    const resultado = listaFuncionarios.filter((obj: any) => {
+      return obj.id === idPesquisa;
+    });
 
-console.log(listaFuncionarios.getFuncionariosBrasil());
+    return resultado;
+  }
+
+  public buscarPorNome(nomePesquisa: string): any {
+    const listaFuncionarios = this.getFuncionarios();
+    const resultado = listaFuncionarios.filter((obj: any) => {
+      return obj.nome === nomePesquisa;
+    });
+
+    return resultado;
+  }
+}
+
+const listaFuncionarios = new searchFuncionarios();
+
+console.log(listaFuncionarios.buscarPorid(10));
