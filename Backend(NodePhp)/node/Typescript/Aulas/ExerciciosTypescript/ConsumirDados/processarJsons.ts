@@ -14,12 +14,11 @@ interface Apifuncionarios {
 }
 
 class rhSystem {
-  public getFuncionarios(): Apifuncionarios[] {
+  protected getFuncionarios(): Apifuncionarios[] {
     try {
       const responstaApi = Listadefuncionarios.funcionarios;
       return responstaApi;
     } catch (error) {
-      console.error("Erro ao obter funcionários:", error);
       throw new Error("Erro ao obter funcionários");
     }
   }
