@@ -1,21 +1,12 @@
-public class App {
-    public String getNome() {
-        String nome = "Ryan";
+class Fors {
+    public static void main(String args[]) {
 
-        return nome;
+        boolean b = false;
+        if (b == false)
+            System.out.println("True");
+        else {
+            System.out.println("False");
+        }
     }
 
-    void main() {
-        App nome = new App();
-        System.out.println("Olá, eu sou o(a) " + nome.getNome() + ". Tudo bem?");
-    }
 }
-
-/*
- * Componente app
- * -
- * -
- * -
- * 
- * 
- */
