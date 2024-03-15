@@ -26,6 +26,8 @@
 -Sql
  <br>
  -noSql
+ <br>
+ Java
  
 
  <strong> #Future skills # </strong> 
