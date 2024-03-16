@@ -1,3 +1,4 @@
+
 public class App {
 
     static void validaIdade(int idade) {
@@ -10,5 +11,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         validaIdade(21);
         validaIdade(61);
+
     }
 }
