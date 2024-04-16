@@ -18,5 +18,6 @@ public class variaveisJava {
                 "Exibindo dados: Nome: %s, Idade: %d, Altura: %s, e média salaria: %d", nome, Idade, altura,
                 salarioMedia);
         System.out.println(dadosUsuario); // Imprime o valor da variável 'Nome' que é uma string
+
     }
 }
