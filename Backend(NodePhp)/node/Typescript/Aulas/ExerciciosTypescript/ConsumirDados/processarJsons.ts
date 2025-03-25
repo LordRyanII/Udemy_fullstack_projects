@@ -1,5 +1,15 @@
 import axios from "axios";
-const Listadefuncionarios = require("./json/funcionarios.json");
+const Listadefuncionarios = {
+  "funcionarios": [
+    {
+      id: 1,
+      nome: "João",
+      cargo: "Gerente",
+      salario: 5000.00
+    }
+  ]
+
+}
 
 interface Apifuncionarios {
   id: number;
@@ -14,7 +24,7 @@ interface Apifuncionarios {
 }
 
 class rhSystem {
-  protected getFuncionarios(): Apifuncionarios[] {
+  protected getFuncionarios() {
     try {
       const responstaApi = Listadefuncionarios.funcionarios;
       return responstaApi;
